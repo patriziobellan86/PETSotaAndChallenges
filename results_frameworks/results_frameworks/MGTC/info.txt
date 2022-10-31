@@ -1,0 +1,10 @@
+Qian, C., Wen, L., Kumar, A., Lin, L., Lin, L., Zong, Z., Li, S., & Wang, J. (2020).
+An approach for process model extraction by multi-grained text classification. In
+Advanced Information Systems Engineering - 32nd Int. Conference, CAiSE 2020,
+Proceedings (pp. 268–282). Springer volume 12127 of Lecture Notes in Computer
+Science. doi:10.1007/978-3-030-49435-3\_17.
+
+In this file we report where we tracked the process elements and process relations out from this framework
+
+We extracted Activity, Activity data, Actor PET process elements from SRL results
+
