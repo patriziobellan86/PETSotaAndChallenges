@@ -4,6 +4,19 @@ This is the repository of the paper:
 
 ### Process Extraction From Text State-of-the-art and Challenges for the Future
 
+## Cite the paper
+
+Please cite the paper as:
+
+    @article{
+        Bellan2021ProcessEF,
+        title={Process Extraction from Text: state of the art and challenges for the future},
+        author={Patrizio Bellan and Mauro Dragoni and Chiara Ghidini},
+        journal={ArXiv},
+        year={2021},
+        volume={abs/2110.03754}
+    }
+
 
 ## Tools Tested:
 
