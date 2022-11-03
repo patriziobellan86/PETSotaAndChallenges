@@ -1,3 +1,4 @@
+Paper:
 Friedrich, F., Mendling, J., & Puhlmann, F. (2011). Process Model Generation from
 Natural Language Text. In Advanced Information Systems Engineering - 23rd In
 ternational Conference, CAiSE 2011. Proceedings (pp. 482–496). Springer volume
@@ -5,7 +6,7 @@ ternational Conference, CAiSE 2011. Proceedings (pp. 482–496). Springer volume
 
 In this file we report where we tracked the process elements and process relations out from this framework
 
-
+from:
 - 'ProcessModelBuilder.createProcessModel'
     We extracted 'Activity' PET process element from action.f_name.
 
@@ -18,9 +19,7 @@ In this file we report where we tracked the process elements and process relatio
 
 We were not able to parse text 'doc-3.6' due to the following error:
 """
-/Users/patrizio/texts/doc-3.6.txt
 Sentence contains no action?!?
-
 java.lang.ClassCastException: class net.frapu.code.visualization.bpmn.IntermediateEvent cannot be cast to class net.frapu.code.visualization.bpmn.Task (net.frapu.code.visualization.bpmn.IntermediateEvent and net.frapu.code.visualization.bpmn.Task are in unnamed module of loader 'app')
 	at com.inubit.research.textToProcess.transform.ProcessModelBuilder.checkForBBPools(ProcessModelBuilder.java:410)
 	at com.inubit.research.textToProcess.transform.ProcessModelBuilder.buildBlackBoxPools(ProcessModelBuilder.java:376)
