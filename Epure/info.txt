@@ -1,3 +1,5 @@
+Paper:
+
 Epure, E. V., Martín-Rodilla, P., Hug, C., Deneckère, R., & Salinesi, C. (2015).
 Automatic process model discovery from textual methodologies.
 In 9th IEEE International Conference on Research Challenges in Information Science,
@@ -5,10 +7,11 @@ RCIS 2015 (pp.19–30). IEEE. doi:10.1109/RCIS.2015.7128860.
 
 In this file we report where we tracked the process elements and process relations out from this framework
 
+from:
 - 'def create_activities'
     We extracte the 'Activity' PET element from the list of verbs
     We extracted the 'Activity Data' PET element from the final_objs
-    We make a 'Uses' relation between them.
+    We capture the 'Uses' relation between them.
 
 - 'def ParseData'
     We captured the 'Flow' relation between activities.
