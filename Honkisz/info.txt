@@ -1,3 +1,5 @@
+PAPER:
+
 Honkisz, K., Kluza, K., & Wisniewski, P. (2018). A Concept for Generating Business
 Process Models from Natural Language Description. In Knowledge Science, Engineering
 and Management - 11th International Conference, KSEM 2018, Proceedings, Part I (pp. 91–103). Springer volume 11061 of Lecture Notes in Computer
@@ -5,6 +7,7 @@ Science. doi:10.1007/978-3-319-99365-2\_8.
 
 In this file we report where we tracked the process elements and process relations out from this framework
 
+from:
 - 'def add_sequence_flow'
     We extracted 'Activity' and 'Activity Data' PET process elements and their 'Uses' relation.
     We extracted 'Activity' and 'Actor' PET process elements and their 'Actor Performer' relation.
