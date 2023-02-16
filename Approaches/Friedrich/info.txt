@@ -1,0 +1,30 @@
+Paper:
+Friedrich, F., Mendling, J., & Puhlmann, F. (2011). Process Model Generation from
+Natural Language Text. In Advanced Information Systems Engineering - 23rd In
+ternational Conference, CAiSE 2011. Proceedings (pp. 482–496). Springer volume
+6741 of Lecture Notes in Computer Science.
+
+In this file we report where we tracked the process elements and process relations out from this framework
+
+from:
+- 'ProcessModelBuilder.createProcessModel'
+    We extracted 'Activity' PET process element from action.f_name.
+
+    'Activity Data'  form action.f_object and the 'Uses' relation
+    'Actor' from action.f_actorFrom and the 'Actor Performer' relation
+
+	'Further specification' from action.f_specifiers and the 'Further Specification' relation
+
+	Since we were not able to extract gateway and correctly capture the 'flow' relation we excluded it.
+
+We were not able to parse text 'doc-3.6' due to the following error:
+"""
+Sentence contains no action?!?
+java.lang.ClassCastException: class net.frapu.code.visualization.bpmn.IntermediateEvent cannot be cast to class net.frapu.code.visualization.bpmn.Task (net.frapu.code.visualization.bpmn.IntermediateEvent and net.frapu.code.visualization.bpmn.Task are in unnamed module of loader 'app')
+	at com.inubit.research.textToProcess.transform.ProcessModelBuilder.checkForBBPools(ProcessModelBuilder.java:410)
+	at com.inubit.research.textToProcess.transform.ProcessModelBuilder.buildBlackBoxPools(ProcessModelBuilder.java:376)
+	at com.inubit.research.textToProcess.transform.ProcessModelBuilder.createProcessModel(ProcessModelBuilder.java:136)
+	at com.inubit.research.textToProcess.TextToProcess.analyzeText(TextToProcess.java:155)
+	at com.inubit.research.textToProcess.TextToProcess.parseText(TextToProcess.java:164)
+	at com.inubit.research.textToProcess.gui.T2Pgui$LoaderThread.run(T2Pgui.java:701)
+"""

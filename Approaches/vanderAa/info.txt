@@ -1,0 +1,16 @@
+van der Aa, H., Di Ciccio, C., Leopold, H., & Reijers, H. A. (2019). Extracting
+declarative process models from natural language. In Advanced Information
+Systems Engineering - 31st International Conference, CAiSE 2019, Proceedings
+980 (pp. 365–382). Springer volume 11483 of Lecture Notes in Computer Science.
+doi:10.1007/978-3-030-21290-2\_23.
+
+In this file we report where we tracked the process elements and process relations out from this framework
+
+- 'ResultsWriter/ResultsWriter.java/write'
+    We recorded 'Activity' from dc.getActionB().getVerb()
+    We recorded 'Activity Data' from  dc.getActionB().object
+    We recorded 'Actor' from dc.getActionB().subject
+
+    Then, we created the 'Uses' and 'Actor Performer' relations for each activity
+
+    We excluded the 'Flow' relation since this framework generate declarative relation.
