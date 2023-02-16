@@ -7,18 +7,19 @@ This is the repository of the paper:
 ## Cite the paper
 
 Please cite the paper as:
-
+	
     @article{
-        Bellan2021ProcessEF,
-        title={Process Extraction from Text: state of the art and challenges for the future},
-        author={Patrizio Bellan and Mauro Dragoni and Chiara Ghidini},
-        journal={ArXiv},
-        year={2021},
-        volume={abs/2110.03754}
+    TO DO,
+        title={TO DOProcess Extraction from Text: state of the art and challenges for the future},
+        author={TO DO},
+        journal={TO DO},
+        year={2023},
+        volume={TO DO}
     }
 
 
 ## Tools Tested:
+TO BE UPDATED
 
 - de A. R. **Gonçalves**, J. C., Santoro, F. M., & Baião, F. A. (2011).
 Let Me Tell You a Story - On How to Build Process Models.
@@ -31,8 +32,7 @@ Systems Engineering - 31st International Conference, CAiSE 2019, Proceedings
 doi:10.1007/978-3-030-21290-2\_23.
 
 - **Friedrich**, F., Mendling, J., & Puhlmann, F. (2011). Process Model Generation from
-Natural Language Text. In Advanced Information Systems Engineering - 23rd In
-ternational Conference, CAiSE 2011. Proceedings (pp. 482–496). Springer volume
+Natural Language Text. In Advanced Information Systems Engineering - 23rd International Conference, CAiSE 2011. Proceedings (pp. 482–496). Springer volume
 6741 of Lecture Notes in Computer Science.
 
 - **Epure**, E. V., Martín-Rodilla, P., Hug, C., Deneckère, R., & Salinesi, C. (2015).
@@ -54,5 +54,8 @@ Science. doi:10.1007/978-3-030-49435-3\_17.
 The source data, benchmarking procedure file, and the results are in each folder of the tool tested.
 
 ## Benchmarking
+
+
 To (re)-run benchmarking procedures, you need to install the following python packages:
  - petbenchmarks via pip: pip install petbenchmarks
+
