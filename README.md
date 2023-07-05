@@ -8,7 +8,7 @@ Several automated approaches have been proposed to tackle this problem, but they
 In this paper, we overcome this issue by comparing 10 state-of-the-art approaches for model extraction in a systematic manner, covering both qualitative and quantitative aspects.
 The qualitative evaluation compares the analysis of the primary studies on:
 - the main characteristics of each solution; 
-- the type of \elements extracted from the input data; and	
+- the type of process elements extracted from the input data; and	
 - the experimental evaluation performed to evaluate the proposed framework.
 
 The results show a heterogeneity of techniques, elements extracted and evaluations conducted, that are often impossible to compare in a direct manner. To overcome this difficulty we propose a quantitative comparison of the tools proposed by the different papers on the unifying task of process model entity and relation extraction so as to be able to compare them directly. The results show three distinct groups of tools in terms of performance, with no tool obtaining very good scores and also serious limitations in terms of elements extracted. Moreover, the proposed evaluation pipeline can be considered a reference task on a well defined dataset and metrics that can be used to compare new tools in a way similar to what happens in e.g., the natural language processing or computer vision communities. 
@@ -66,7 +66,6 @@ In the tool folder you can find the following files:
 Type of comparison can be *strict* or empty in the relaxed setting.
 For example the file 'results-Goncalves-elements-strict.json' contains the results of the benchmarking procedure for the tool of Goncalves in the strict setting for the process elements.
 - info.txt: the file containing the information about the tool tested
-The source data, benchmarking procedure file, and the results are in each folder of the tool tested.
 
 
 ## Benchmarking
