@@ -55,14 +55,27 @@ Advanced Information Systems Engineering - 32nd Int. Conference, CAiSE 2020,
 Proceedings (pp. 268–282). Springer volume 12127 of Lecture Notes in Computer
 Science. doi:10.1007/978-3-030-49435-3\_17.
 
+## The results of the benchmarking
+
+The folder *Approaches* contains the results of the benchmarking procedure for each tool tested.
+In the tool folder you can find the following files:
+- bankmarking{AUTHOR_NAME}.py: the python script file to run the benchmarking procedure
+- {AUTHOR_NAME}_process_elements.json: the file containing the process elements extracted by the tool
+- {AUTHOR_NAME}_process_relations.json: the file containing the process relations extracted by the tool
+- results-{AUTHOR_NAME}-{elements/relations} {type of comparison}.json: the file containing the results of the benchmarking procedure. 
+Type of comparison can be *strict* or empty in the relaxed setting.
+For example the file 'results-Goncalves-elements-strict.json' contains the results of the benchmarking procedure for the tool of Goncalves in the strict setting for the process elements.
+- info.txt: the file containing the information about the tool tested
 The source data, benchmarking procedure file, and the results are in each folder of the tool tested.
+
 
 ## Benchmarking
 
-To (re)-run benchmarking procedure of a tool you need to run the file *benchmark{AUTHOR_NAME}.py*.
-
+To (re)-run benchmarking procedure of a tool you need to run the corresponding python script file *benchmark{AUTHOR_NAME}.py*.
+You can find the script file in the folder of the tool tested.
 
 To do so, you need to install **petbenchmarks** python package.
+This package contains the benchmarking procedure.
 You can install it via pip:
 
 ```python

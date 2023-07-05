@@ -1,3 +1,0 @@
-petbenchmarks~=0.0.1a2
-sklearn~=0.0
-scikit-learn~=1.1.1
