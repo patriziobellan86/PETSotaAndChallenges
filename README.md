@@ -59,13 +59,13 @@ Science. doi:10.1007/978-3-030-49435-3\_17.
 
 The folder *Approaches* contains the results of the benchmarking procedure for each tool tested.
 In the tool folder you can find the following files:
-- bankmarking{AUTHOR_NAME}.py: the python script file to run the benchmarking procedure
-- {AUTHOR_NAME}_process_elements.json: the file containing the process elements extracted by the tool
-- {AUTHOR_NAME}_process_relations.json: the file containing the process relations extracted by the tool
+- bankmarking{AUTHOR_NAME}.py: the python script file to run the benchmarking procedure.
+- {AUTHOR_NAME}_process_elements.json: the file containing the process elements extracted by the tool.
+- {AUTHOR_NAME}_process_relations.json: the file containing the process relations extracted by the tool.
 - results-{AUTHOR_NAME}-{elements/relations} {type of comparison}.json: the file containing the results of the benchmarking procedure. 
 Type of comparison can be *strict* or empty in the relaxed setting.
 For example the file 'results-Goncalves-elements-strict.json' contains the results of the benchmarking procedure for the tool of Goncalves in the strict setting for the process elements.
-- info.txt: the file containing the information about the tool tested
+- info.txt: the file containing the information about how we recorded process elements and process element relations in the tool's code we tested.
 
 
 ## Benchmarking
