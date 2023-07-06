@@ -55,10 +55,14 @@ Advanced Information Systems Engineering - 32nd Int. Conference, CAiSE 2020,
 Proceedings (pp. 268–282). Springer volume 12127 of Lecture Notes in Computer
 Science. doi:10.1007/978-3-030-49435-3\_17.
 
+We do not include the source code of the tools in this repository. 
+We report the author to contact to obtain the tool in the file *info.txt*
+
+
 ## The results of the benchmarking
 
 The folder *Approaches* contains the results of the benchmarking procedure for each tool tested.
-In the tool folder you can find the following files:
+In the **tool folder** you can find the following files:
 - bankmarking{AUTHOR_NAME}.py: the python script file to run the benchmarking procedure.
 - {AUTHOR_NAME}_process_elements.json: the file containing the process elements extracted by the tool.
 - {AUTHOR_NAME}_process_relations.json: the file containing the process relations extracted by the tool.
