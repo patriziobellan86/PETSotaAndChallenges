@@ -4,6 +4,9 @@ Natural Language Text. In Advanced Information Systems Engineering - 23rd In
 ternational Conference, CAiSE 2011. Proceedings (pp. 482–496). Springer volume
 6741 of Lecture Notes in Computer Science.
 
+github repository:
+	https://github.com/FabianFriedrich/Text2Process
+
 In this file we report where we tracked the process elements and process relations out from this framework
 
 from:

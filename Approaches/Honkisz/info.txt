@@ -5,6 +5,10 @@ Process Models from Natural Language Description. In Knowledge Science, Engineer
 and Management - 11th International Conference, KSEM 2018, Proceedings, Part I (pp. 91–103). Springer volume 11061 of Lecture Notes in Computer
 Science. doi:10.1007/978-3-319-99365-2\_8.
 
+
+Repository:
+    https://github.com/KrzyHonk/nl-description-to-bpmn
+    
 In this file we report where we tracked the process elements and process relations out from this framework
 
 from:

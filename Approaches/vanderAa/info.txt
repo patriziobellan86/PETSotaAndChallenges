@@ -4,6 +4,10 @@ Systems Engineering - 31st International Conference, CAiSE 2019, Proceedings
 980 (pp. 365–382). Springer volume 11483 of Lecture Notes in Computer Science.
 doi:10.1007/978-3-030-21290-2\_23.
 
+repository:
+    https://github.com/hanvanderaa/declareextraction/tree/master/caise2019version/DeclareExtraction
+    
+    
 In this file we report where we tracked the process elements and process relations out from this framework
 
 - 'ResultsWriter/ResultsWriter.java/write'

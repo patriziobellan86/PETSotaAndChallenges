@@ -5,6 +5,10 @@ Automatic process model discovery from textual methodologies.
 In 9th IEEE International Conference on Research Challenges in Information Science,
 RCIS 2015 (pp.19–30). IEEE. doi:10.1109/RCIS.2015.7128860.
 
+contacted person:
+    elena.epure.ro@gmail.com
+
+
 In this file we report where we tracked the process elements and process relations out from this framework
 
 from:
